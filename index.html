@@ -31,12 +31,10 @@ layout: default
       <img src="{{ post.img }}"></img>
        <div class="card-block">
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
         <div class="entry">
-          {{ post.excerpt | strip_html }}
+          {{ post.description | strip_html }}
         </div>
        </fdiv>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </div>
   {% endfor %}
 </div>
