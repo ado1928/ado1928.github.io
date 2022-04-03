@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You're up and running!
+img: https://preview.redd.it/3tucsyq1qmg71.jpg?auto=webp&s=faab34667eeef961d315b93031e0886dfeec422e
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
