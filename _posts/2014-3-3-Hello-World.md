@@ -1,11 +1,6 @@
 ---
 layout: post
-title: You're up and running!
-img: https://preview.redd.it/3tucsyq1qmg71.jpg?auto=webp&s=faab34667eeef961d315b93031e0886dfeec422e
+title: Cat Trap Game
+img: https://user-images.githubusercontent.com/47899778/161439388-87f2ca67-8f55-4404-9e14-6a4a3603b2da.png
+description: This is a better version of the original Cat Trap game from llerrah.com. It adds music, dark/light theme and sounds.
 ---
-
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
