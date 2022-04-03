@@ -14,7 +14,7 @@ layout: default
     <div class="card col-md-4 p-0" style="background: #202022">
       <img class="rounded-top" src="{{ post.img }}"></img>
        <div class="card-block m-3">
-        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <h2><a href="{{ post.href }}">{{ post.title }}</a></h1>
         <div class="entry">
           {{ post.description | strip_html }}
         </div>
