@@ -2,9 +2,31 @@
 layout: default
 ---
 
+<style>
+    @font-face {
+        font-family: silkscreen;
+        src: url(slkscr.ttf);
+     }
+
+    .h1 {
+        background: repeating-linear-gradient( 45deg, #fff, #fff 3px, #000 3px, #000 12px );
+        font-size: 15vw;
+        background-clip: text;
+        -webkit-text-fill-color: #ffffff22;
+        filter: drop-shadow(0px 3px 0px #fff) drop-shadow(3px 0px 0px #fff);
+        font-family: silkscreen;
+        }
+</style>
+
+<div class="justify-content-center">
+    <h1 class="ado">
+        Ado1928
+    </h1>
+</div>
+
+
 <div class="row">
   {% for post in site.posts %}
-  
     <div class="card">
       <img src="{{ post.img }}"></img>
        <div class="card-block">
